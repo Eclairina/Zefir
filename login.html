@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Логин</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">Зефиро-сласти О.Симашовой</a>
+
+      <nav class="navbar">
+         <a href="home.html">Главная</a>
+         <a href="about.html">О нас</a>
+         <a href="menu.html">Каталог</a>
+         <!-- <a href="orders.html">orders</a> -->
+         <a href="contact.html">Контакты</a>
+      </nav>
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">имя профиля</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">Профиль</a>
+            <a href="#" class="delete-btn">выйти</a>
+         </div>
+         <p class="account"><a href="login.html">логин</a> или <a href="register.html">регистация</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<section class="form-container">
+
+   <form action="" method="post">
+      <h3>Введите логин</h3>
+      <input type="email" required maxlength="50" name="email" placeholder="Введите почту" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" required maxlength="20" name="pass" placeholder="Введите пароль" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="submit" value="Войти" class="btn" name="submit">
+      <p>нет аккаунта? <a href="register.html">Зарегистрироваться</a></p>
+   </form>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+
+
+   <section class="box-container">
+
+     
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>Часы работы</h3>
+         <p>Заказы принимаются с 8:00 до 18:00 </p>
+      </div>
+
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>Наш адрес</h3>
+        <a class="fot" href="https://www.google.com/maps" >г. Ростов-на-Дону,<br>Железнодорожный район,<br>ул. Барикадная 1</a>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>Номер телефона WhatsApp</h3>
+         <a href="tel:1234567890">+7-904-44-12-885</a>
+       
+      </div>
+
+   </section>
+
+
+   <footer class="footer1" >
+  
+      <div class="container">
+          <div class="row1">
+                <div class="col1" id="company">
+                    <img src="images/logo.svg" alt="" class="logo">
+                    <p class="comp">
+                     Компания Зефиро-сласти О.Симашовой придлагает вам огромный выбор вкуснейших кондитерских изделий на заказ. Закажите вкусный подарок на любой случай!
+                    </p>
+                    <!-- <div class="social">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div> -->
+                </div>
+
+
+                <div class="col1" id="services">
+                   <h3>Главная</h3>
+                   <div class="links">
+                      <a href="#">Скидки</a>
+                      <a href="#">Акции</a>
+                      <a href="#">О нас</a>
+                      <a href="#">Доставка</a>
+                      <a href="#">Адрес</a>
+                   </div>
+                </div>
+
+                <div class="col1" id="useful-links">
+                   <h3>Каталог</h3>
+                   <div class="links">
+                      <a href="#">Торты</a>
+                      <a href="#">Зефирные букеты</a>
+                      <a href="#">Пряники</a>
+                      <a href="#">Капкейки</a>
+                      <a href="#">Куличи</a>
+                   </div>
+                </div>
+
+                <div class="col1" id="useful-links">
+                  <h3>Дополнительно</h3>
+                  <div class="links">
+                     <a href="#">Личный кабинет</a>
+                     <a href="#">Стать курьером</a>
+                     <a href="#">Сертификаты</a>
+                     <a href="#">Для сотрудничества</a>
+                     <a href="#">Подарочные</a>
+                  </div>
+               </div>
+
+          
+              
+<!-- 
+          <div class="coll1">
+                <div class="form">
+                  <form action="">
+                      <input type="text" placeholder="Введите номер телефона">
+                      <button><i class="fa fa-paper-plane"></i></button>
+                  </form>
+                </div>
+          </div>
+           -->
+
+      </div>
+   </footer>
+   <div class="credit"> &copy; 2023 Зефирный рай О.Симашовой | Все права защищены | Условия | Обработка персональных данных</div>
+</footer>
+<a href="#">
+   <div class="pointer">
+       <div class="pointer1"><img src="images/15.svg"></div>
+   </div></a>
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
